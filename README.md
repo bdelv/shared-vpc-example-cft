@@ -1,6 +1,6 @@
 # Description
 
-It is a stripped dowm example that tries to provision on GCP:
+Minimal example that tries to provision on GCP:
 - a host project
 - s shared VPC
 - a service project
@@ -10,7 +10,7 @@ Not functionnal!!!
 
 Don't use it as an example!
 
-# install
+# Setup
 
 Set the following environment variables:
 ```
@@ -29,7 +29,7 @@ Open a docker console with the required tools (terraform, gcloud)
 make docker_run
 ```
 
-# terraform setup
+# terraform
 
 - Download the terraform modules and plugins:
 ```
